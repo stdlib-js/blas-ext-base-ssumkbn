@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-19)
+## Unreleased (2025-12-04)
 
 <section class="features">
 
@@ -16,12 +16,26 @@
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`205bebc`](https://github.com/stdlib-js/stdlib/commit/205bebc114efdc0a11ef685d29a220603c436165) - address pointer increment bug
+-   [`67a91d6`](https://github.com/stdlib-js/stdlib/commit/67a91d69cc62d8c76cf2a654eb8e2f28bd408b9f) - update implementation to preserve signed zeros
+
+</section>
+
+<!-- /.bug-fixes -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`6f01a24`](https://github.com/stdlib-js/stdlib/commit/6f01a245cb537f48bed2e576501b5d5df9fadba0) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/ssumkbn` [(#8762)](https://github.com/stdlib-js/stdlib/pull/8762) _(by Omar Mohamed, Athan Reines)_
+-   [`205bebc`](https://github.com/stdlib-js/stdlib/commit/205bebc114efdc0a11ef685d29a220603c436165) - **fix:** address pointer increment bug _(by Athan Reines)_
+-   [`67a91d6`](https://github.com/stdlib-js/stdlib/commit/67a91d69cc62d8c76cf2a654eb8e2f28bd408b9f) - **fix:** update implementation to preserve signed zeros _(by Athan Reines)_
 -   [`9f85b5d`](https://github.com/stdlib-js/stdlib/commit/9f85b5d90cb6fcaf052116cd06aa4a693757f0ec) - **test:** fix description _(by Philipp Burckhardt)_
 -   [`b5fe718`](https://github.com/stdlib-js/stdlib/commit/b5fe71883c1c00246f21643e72bb30d14cead437) - **test:** add zeros tests _(by Athan Reines)_
 -   [`1e28982`](https://github.com/stdlib-js/stdlib/commit/1e28982e44845cb8a7bc45c05fac896a5d28d18d) - **feat:** add C `ndarray` API and refactor `blas/ext/base/ssumkbn` [(#4851)](https://github.com/stdlib-js/stdlib/pull/4851) _(by Muhammad Haris, Athan Reines)_
@@ -37,10 +51,11 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Muhammad Haris
+-   Omar Mohamed
 -   Philipp Burckhardt
 
 </section>
